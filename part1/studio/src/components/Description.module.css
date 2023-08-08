@@ -5,5 +5,5 @@
 
 .imageUpdates{
     object-fit: contain;
-    size: 50px;
+    max-width: 100%; 
 }

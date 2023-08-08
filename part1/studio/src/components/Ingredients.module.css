@@ -1,3 +1,17 @@
 .ingredientList{
-    text-align: left;
+    text-align:left center;
+    /* width: 35%; */
+
 }
+
+
+li{
+    list-style: none;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCWE6LjeUorteGJlUQNWkL-e_PBQuf8AfT1A&usqp=CAU);
+    background-size: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 30px 40px; 
+    object-fit: contain;
+  }
+
