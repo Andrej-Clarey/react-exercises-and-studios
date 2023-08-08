@@ -5,7 +5,7 @@ function onLearnMore (){
    alert("Splish Splash!");
 };
    return ( 
-         <button OnClick={onLearnMore}>
+         <button onClick={onLearnMore}>
             Learn More
          </button>
    );
