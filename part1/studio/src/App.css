@@ -37,8 +37,8 @@
   }
 }
 
-.similarComponents {
-  display:flex;
-justify-content:space-between;
-margin: 80px;
+.recipePhotoBlock{
+  display: flex;
+  justify-content: space-evenly;
+  
 }

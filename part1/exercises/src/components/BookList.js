@@ -4,12 +4,13 @@ export default function BookList() {
    let book2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWhakIEi21OW3dPS_q3hH_1tCTj5KW_23ldw&usqp=CAU";
    let book3 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXOEgiB2raUw72vMkoaxew8soaQIJXrI14bJ5vYD3KiXl2ss7-9bjf2mZTmCfpn345lo4&usqp=CAU";
 
+
    return (
       <div>
          <h3>{pageTitle}</h3>
-         <img src={book1} alt="Dune" />
-         <img src={book2} alt="The Witcher:Sword of Destiny" />
-         <img src={book3} alt="Throne of Glass Series" />
+         <img src={book1} alt="Dune" width= "250px" height="350px"/>
+         <img src={book2} alt="The Witcher:Sword of Destiny" width= "250px" height="350px"/>
+         <img src={book3} alt="Throne of Glass Series" width= "250px" height="350px"/>
       </div>      
    );
 }
