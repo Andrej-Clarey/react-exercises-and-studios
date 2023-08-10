@@ -1,7 +1,7 @@
-
+import './introduction.css'
 
 export default function HobbyIntroduction(){
-    return(<div>
+    return(<div className = "intro">
         <h2>3 Fun Facts About Diablo 4</h2>
         <ol>
             <li>100s of hours of gameplay</li>

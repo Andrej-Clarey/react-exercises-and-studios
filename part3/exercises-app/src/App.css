@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  /* display: flex; */
+  background-image: url("https://rare-gallery.com/thumbs/507927-tyrael-ultra.jpg");
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.header{
+  text-align: center;
+  color: rgb(187, 6, 6);
 }
 
 .App-logo {
