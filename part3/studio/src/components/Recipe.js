@@ -1,7 +1,7 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://therecipecritic.com/easy-shrimp-tacos/";
+   let authorPhoto = "https://therecipecritic.com/wp-content/uploads/2019/01/alyssa-kitchen.jpg";
+   let authorName = "Alyssa Rivers";
 
    return (
       <div>
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["Shrimp", "Olive Oil", "Seasonings", "Flour Tortillas", "Toppings"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,8 +34,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Easy Shrimp Tacos</h1>
+            <p>Happy Friday! I’m here to bring you another easy and delicious dinner that’s a great timesaver for busy families! I love tacos. You just can’t go wrong with them! Everyone will be happy because they can choose their own toppings, and they’re fun to eat as well.</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -47,7 +47,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://therecipecritic.com/wp-content/uploads/2022/12/shrimp_tacos-750x1000.jpg" alt="Tasty Shrimp Taco" className="imageUpdates"/>
    );
 }
 
